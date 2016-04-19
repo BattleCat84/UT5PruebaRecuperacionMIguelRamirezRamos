@@ -13,8 +13,8 @@ public class Ordenador {
      */
     
     
-    private String procesador;
-    private String memoria;
+    private String cpu;
+    private String ram;
     private String resolucionPantalla;
     
     //paso 2
@@ -33,28 +33,28 @@ public class Ordenador {
      * @return 
      */
     public String getProcesador() {
-        return procesador;
+        return cpu;
     }
     /**
      * 
      * @param procesador 
      */
     public void setProcesador(String procesador) {
-        this.procesador = procesador;
+        this.cpu = procesador;
     }
     /**
      * 
      * @return 
      */
     public String getMemoria() {
-        return memoria;
+        return ram;
     }
     /**
      * 
      * @param memoria 
      */
     public void setMemoria(String memoria) {
-        this.memoria = memoria;
+        this.ram = memoria;
     }
     /**
      * 
