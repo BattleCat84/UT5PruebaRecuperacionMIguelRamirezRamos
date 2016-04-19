@@ -18,7 +18,36 @@ public class Ordenador {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+         
+        
+   
+    }
+    
+    //paso 3 
+    public String getProcesador() {
+        return procesador;
+    }
+
+    public void setProcesador(String procesador) {
+        this.procesador = procesador;
+    }
+
+    public String getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(String memoria) {
+        this.memoria = memoria;
+    }
+
+    public String getResolucionPantalla() {
+        return resolucionPantalla;
+    }
+
+    public void setResolucionPantalla(String resolucionPantalla) {
+        this.resolucionPantalla = resolucionPantalla;
     }
     
 }
+
+    // paso 4
