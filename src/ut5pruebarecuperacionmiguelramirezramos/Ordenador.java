@@ -10,7 +10,7 @@ public class Ordenador {
     
     
     private String cpu;
-    private String memoria;
+    private String ram;
     private String resolucionPantalla;
     
     //paso 2
@@ -33,11 +33,11 @@ public class Ordenador {
     }
 
     public String getMemoria() {
-        return memoria;
+        return ram;
     }
 
     public void setMemoria(String memoria) {
-        this.memoria = memoria;
+        this.ram = memoria;
     }
 
     public String getResolucionPantalla() {
