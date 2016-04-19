@@ -9,7 +9,7 @@ public class Ordenador {
     //paso 1
     
     
-    private String procesador;
+    private String cpu;
     private String memoria;
     private String resolucionPantalla;
     
@@ -25,11 +25,11 @@ public class Ordenador {
     
     //paso 3 
     public String getProcesador() {
-        return procesador;
+        return cpu;
     }
 
     public void setProcesador(String procesador) {
-        this.procesador = procesador;
+        this.cpu = procesador;
     }
 
     public String getMemoria() {
